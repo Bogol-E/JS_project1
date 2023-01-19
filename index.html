@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주사위게임</title>
+    <link rel="stylesheet" href="./styles/dice.css">
+    <script src="./scripts/dice.js"></script>
+</head>
+<body>
+    <!-- html / css / js 전부 분리하기 -->
+
+    <!-- <h1 id="idh1"> 자바스크립트 </h1> -->
+
+    <header>
+        <h1>주사위게임</h1>
+    </header>
+    <main id="content">
+        <section id="s1">이미지</section>
+        <section id="s2">
+            <form>
+                <legend>주사위 숫자를 맞춰 보세요</legend>
+                <label>
+                    <input type="radio" name="num" id="num1" value="1" checked>
+                    1
+                </label>
+                <label>
+                    <input type="radio" name="num" id="num2" value="2">
+                    2
+                </label>
+                <label>
+                    <input type="radio" name="num" id="num3" value="3">
+                    3
+                </label>
+                <label>
+                    <input type="radio" name="num" id="num4" value="4">
+                    4
+                </label>
+                <label>
+                    <input type="radio" name="num" id="num5" value="5">
+                    5
+                </label>
+                <label>
+                    <input type="radio" name="num" id="num6" value="6">
+                    6
+                </label>
+               
+            </form>
+
+        </section>
+        <section id="s3">
+                <button id="bt1" onclick="showDice()">주사위 선택</button>
+                <button id="bt2" onclick="showOk()">확인</button>
+
+        </section>
+    </main>
+
+
+
+    
+    
+</body>
+</html>
